@@ -38,8 +38,8 @@ done
 
 echo "scRNA symbolic links are created."
 
-# Create symbolic links and rename them for CRISPR files
-echo "Creating and renaming symbolic links for CRISPR files..."
+# Create symbolic links and rename them for scCRISPR files
+echo "Creating and renaming symbolic links for scCRISPR files..."
 
 counter=1
 for file in $crisprdir/*R1.fastq.gz; do
@@ -57,6 +57,6 @@ for file in $crisprdir/*R2.fastq.gz; do
   counter=$((counter + 1))
 done
 
-echo "CRISPR symbolic links are created."
+echo "scCRISPR symbolic links are created."
 
 echo "All symbolic links have been created and renamed successfully!"
