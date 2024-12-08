@@ -1,5 +1,7 @@
 ## Description
- A shell script to create and rename symbolic links for scRNA and scCRISPR fastq files
+ A shell script to:
+ 1. Create symbolic links for scRNA and scCRISPR fastq files when they are stored in different directories.
+ 2. Rename the symbolic links so the new filenames are compatible with 10xGenomics CellRanger input files.
 
 ## Usage
 1. Replace the placeholder paths in the script with your actual directory paths.
